@@ -1,0 +1,11 @@
+# Zabrani izvršavanje PHP-a u uploads folderu
+<FilesMatch "\.php$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Dozvoli samo slike
+<FilesMatch "\.(jpg|jpeg|png|gif|webp|svg)$">
+    Order Deny,Allow
+    Allow from all
+</FilesMatch>

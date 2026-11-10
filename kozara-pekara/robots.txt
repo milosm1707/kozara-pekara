@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /manager/
+Disallow: /includes/
+Disallow: /uploads/
+
+Sitemap: https://kozarapek.com/sitemap.xml

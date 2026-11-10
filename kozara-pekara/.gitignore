@@ -1,0 +1,25 @@
+# --- Tajni podaci (lozinke baze i SMTP-a) ---
+includes/db.php
+includes/config.php
+
+# --- Slike proizvoda i promocija (uploaduju se kroz panel) ---
+uploads/**
+!uploads/**/
+!uploads/**/.gitkeep
+!uploads/**/.htaccess
+
+# --- Composer zavisnosti (PHPMailer, ako se koristi) ---
+vendor/
+
+# --- Dumpovi baze sa pravim podacima ---
+*.sql
+!database/schema.sql
+!database/seed_products.sql
+
+# --- Logovi i sistemski fajlovi ---
+error_log
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

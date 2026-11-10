@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#FEF3EB"/>
+  <rect x="140" y="80" width="120" height="100" rx="12" fill="#F4D4BC" opacity="0.6"/>
+  <text x="200" y="145" text-anchor="middle" font-size="40" font-family="serif">🥐</text>
+  <text x="200" y="215" text-anchor="middle" font-size="13" fill="#BBA899" font-family="sans-serif">Nema slike</text>
+</svg>
